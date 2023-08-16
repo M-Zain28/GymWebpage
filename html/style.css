@@ -1,0 +1,151 @@
+        body {
+            /* css reset  */
+            margin: 0px;
+            padding: 0px;
+            background: url(bg.jpg);
+            background-repeat: no-repeat;
+            background-size: 1800px;
+            height: 900px;
+        }
+
+        .left {
+            /* border: 2px solid white; */
+            color: white;
+            display: inline-block;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .left img {
+            height: 80px;
+            width: 100px;
+            filter: invert(100%);
+
+        }
+
+        .mid {
+            /* border: 2px solid white; */
+            color: white;
+            display: block;
+            width: 500px;
+            margin: 20px auto;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline white;
+            color: silver;
+        }
+
+        .right {
+            /* border: 2px solid white; */
+            color: white;
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            top: 20px;
+            /* padding: 0px 2px 0px 2px;
+            margin: 0px 2px 0px 2px; */
+        }
+
+        .btn {
+            background-color: transparent;
+            /* border: 1px solid white; */
+            border-radius: 5px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 2px 10px 2px 10px;
+            margin: 2px 7px 2px 7px;
+        }
+
+        .btn:hover {
+            background-color: black;
+            cursor: pointer;
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+            width: 30%;
+            margin: 80px 30px 30px 50px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .container1 {
+            border: 2px solid black;
+            border-radius: 10px;
+            display: inline-block;
+            width: 430px;
+            margin: 20px;
+            padding: 12px;
+            text-align: center;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .form-group ::placeholder {
+            text-align: center;
+            color: white;
+        }
+
+        .form-group input {
+            width: 330px;
+            padding: 7px;
+            margin: 1px;
+            border: 2px solid black;
+            border-radius: 3px;
+            background-color: transparent;
+        }
+
+        .container1 button {
+            padding: 4px;
+            margin: 4px;
+            width: 350px;
+            color: white;
+            background-color: black;
+        }
+
+        .container1 form button:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
+        .popup {
+            float: right;
+            border: 2px solid white;
+            color: white;
+            border-radius: 20px;
+            padding: 4px;
+            display: inline-block;
+            position: sticky;
+            top: 100px;
+            margin-right: 5px;
+        }
+   
